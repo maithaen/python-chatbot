@@ -1,5 +1,6 @@
-#Create chatbot
 
+#Create chatbot
+#%%
 from nltk.chat.util import Chat, reflections
 #['(.*)ຄຳຖາມ(.*)', ['ຄຳຕອບ1', 'ຄຳຕອບ2', 'ຄຳຕອບອື່ນໆ']] \\(.*) ສ່ວນຕໍ່ທ້າຍ
 pairs = [
@@ -9,6 +10,7 @@ pairs = [
 ]
 chat = Chat(pairs, reflections)
 #print(reflections)
-
-#chat.converse()
 chat.converse()
+
+
+# %%
